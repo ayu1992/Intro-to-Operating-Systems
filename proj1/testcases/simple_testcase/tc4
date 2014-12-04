@@ -1,0 +1,10 @@
+# Test case #6: Multiple dependencies
+
+test1: test2 test3
+	echo test1
+
+test2: test3
+	echo test2
+
+test3:
+	echo test3

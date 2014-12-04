@@ -1,0 +1,5 @@
+# Test case #7: Check syntax error
+
+d
+test:
+	echo done!

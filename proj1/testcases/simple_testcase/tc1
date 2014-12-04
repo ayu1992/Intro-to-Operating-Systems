@@ -1,0 +1,8 @@
+# Test case #1: If no targets specified, run the first one in the file.
+# Test case #2: -n switch. 
+# Test case #3: Pick the right target. 
+test1:
+	echo Success!
+
+test2:
+	echo Failed.

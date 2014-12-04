@@ -1,0 +1,7 @@
+# Test case #4: Dependency
+
+test1: 
+	echo test1
+
+test2: test1
+	echo test2
